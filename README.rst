@@ -6,7 +6,7 @@ RobotFramework Oracle Library
 Short Description
 -----------------
 
-`Robot Framework`_ library for working with Oracle database, using `cx_Oracle`_.
+`Robot Framework`_ library for working with Oracle database, using `python-oracledb`_.
 
 Installation
 ------------
@@ -45,7 +45,7 @@ License
 Apache License 2.0
 
 .. _Robot Framework: http://www.robotframework.org
-.. _cx_Oracle: http://cx-oracle.readthedocs.io
+.. _oracledb: http://oracledb.readthedocs.io
 
 .. |Build Status| image:: https://travis-ci.org/peterservice-rnd/robotframework-oracledb.svg?branch=master
    :target: https://travis-ci.org/peterservice-rnd/robotframework-oracledb
