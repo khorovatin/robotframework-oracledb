@@ -5,7 +5,7 @@ from threading import Timer
 from typing import Any, Dict, Iterable, Iterator, List, Optional, Tuple, Type, Union
 from types import TracebackType
 
-import cx_Oracle
+import oracledb as cx_Oracle
 import sqlparse
 from robot.api import logger
 from robot.running.context import EXECUTION_CONTEXTS
@@ -19,7 +19,7 @@ class OracleDB(object):
     Robot Framework library for working with Oracle DB.
 
     == Dependencies ==
-    | cx_Oracle | http://cx-oracle.sourceforge.net | version >= 5.3 |
+    | oracledb | https://github.com/oracle/python-oracledb | version >= 1.2 |
     | robot framework | http://robotframework.org |
     """
 
